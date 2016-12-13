@@ -34,6 +34,7 @@ The following dependencies are needed to build the visualization tool from sourc
 ## Installation and Use (using the excecutable)
 ### Download
 - Go to [*Release*](https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/releases) and download the installation package **.zip** file. 
+
 ### Configuration
 
 - The *Configuration Folder*  consists of PMU/PDC connection settings that need to be set in the *Configuration.xml* file.
