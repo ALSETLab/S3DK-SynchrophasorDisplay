@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/76337679.svg)](https://zenodo.org/badge/latestdoi/76337679)
+
 # S3DK Basic Synchrophasor Display (S3DK-BSD)
 A minimalistic synchrophasor display tool built using S3DK and LabVIEW developed by [M. Shoaib Almas](https://github.com/msalmas), [M. Baudette](https://github.com/MaximeBaudette) and [L. Vanfretti](https://github.com/lvanfretti) at SmarTS Lab.
 
@@ -7,6 +9,10 @@ A minimalistic synchrophasor display tool built using S3DK and LabVIEW developed
 This software provides a a simplified version of a dedicated display presented in the following conference paper available online in IEEEXplore ([link](http://ieeexplore.ieee.org/document/6938835/)), please cite it if you use this software:
 
 > M. S. Almas, M. Baudette, L. Vanfretti, S. L⊘vlund and J. O. Gjerde, "Synchrophasor network, laboratory and software applications developed in the STRONg2rid project," 2014 IEEE PES General Meeting | Conference & Exposition, National Harbor, MD, 2014, pp. 1-5. doi: 10.1109/PESGM.2014.6938835
+
+... and please also cite this repository! [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.200502.svg)](https://doi.org/10.5281/zenodo.200502)
+
+> M. Shoaib Almas, Maxime Baudette, and Luigi Vanfretti, “S3DK Basic Synchrophasor Display (S3DK-BSD)”. Zenodo, 13-Dec-2016. DOI: /10.5281/zenodo.200502
 
 ## Aims
 - This application aims to show the use of the S3DK LabVIEW API (PRL) and the functionalities in the associated LabVIEW pallete of functions used to develop a simple display tool.
