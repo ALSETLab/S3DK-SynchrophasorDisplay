@@ -1,5 +1,5 @@
 # S3DK Basic Synchrophasor Display (S3DK-BSD)
-A minimalistic synchrophasor display tool built using S3DK and LabVIEW developed by M. Shoaib Almas, M. Baudette and L. Vanfretti at SmarTS Lab.
+A minimalistic synchrophasor display tool built using S3DK and LabVIEW developed by [M. Shoaib Almas](https://github.com/msalmas), [M. Baudette](https://github.com/MaximeBaudette) and [L. Vanfretti](https://github.com/lvanfretti) at SmarTS Lab.
 
 ![alt text](https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/blob/master/02_ScreenShots/Freq.PNG "Graph showing the frequencies plotted using the S3DK-BSD Tool")
 
@@ -24,11 +24,10 @@ This repository contains:
 ## Dependencies (to build from source)
 The following dependencies are needed to build the visualization tool from source:
 - The Smart grid Synchrophasor Software Development ToolKit (SD3K) ([link](https://github.com/SmarTS-Lab-Parapluie/S3DK)).
-- Other?
 
 ## Installation and Use (using the excecutable)
 ### Download
-- Go to [*Release*]() and download the installation package.
+- Go to [*Release*](https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/releases) and download the installation package **.zip** file. 
 ### Configuration:
 - The *Configuration Folder*  consists of PMU/PDC connection settings that need to be set in the *Configuration.xml* file.
 - Open this file using a text editor (e.g. “Notepad”) and edit the values within `highlighted` below:
