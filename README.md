@@ -1,4 +1,4 @@
-# S3DK Synchrophasor Display
+# S3DK Basic Synchrophasor Display (S3DK BSD)
 A minimalistic synchrophasor display tool built using S3DK and LabVIEW developed by M. Shoaib Almas, M. Baudette and L. Vanfretti at SmarTS Lab.
 
 ### Use our software? = Cite our paper! ;-)
