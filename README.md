@@ -29,13 +29,13 @@ The following dependencies are needed to build the visualization tool from sourc
 - Go to [*Release*]() and download the installation package.
 ### Configuration:
 - The *Configuration Folder*  consists of PMU/PDC connection settings that need to be set in the *Configuration.xml* file.
-- Open this file using a text editor (e.g. “Notepad”) and edit the values within <Val> </Val> below:
+- Open this file using a text editor (e.g. “Notepad”) and edit the values within `highlighted` below:
  
- Line 9    <Val>130.237.53.177</Val>     (Should be the IP Address of the PDC/PMU to which you want to connect)
+ Line 9    `130.237.53.177`     (Should be the IP Address of the PDC/PMU to which you want to connect)
 
- Line 13   <Val>35028</Val>              (Port number for the PMU/PDC output stream)
+ Line 13   `35028`              (Port number for the PMU/PDC output stream)
 
- Line 17   <Val>105</Val>                (Device ID Code of the PMU/PDC stream which you have configured)
+ Line 17   `105`                (Device ID Code of the PMU/PDC stream which you have configured)
  
 - Place this xml file in the following path ./Libraries/Documents
  
