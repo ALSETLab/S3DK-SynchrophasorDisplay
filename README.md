@@ -15,37 +15,47 @@ This software provides a a simplified version of a dedicated display presented i
 
 ## Contents
 This repository contains: 
-- the source code, 
-- an excecutable (binaries) and 
-- screenshots of a simple synchrophasor display tool.
+- the source code [./00_Source/](https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/tree/master/00_Source), 
+- an excecutable (binaries), [./01_Excecutable](https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/tree/master/01_Executable), and 
+- screenshots of a simple synchrophasor display tool, [./02_Screenshots](https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/tree/master/02_ScreenShots).
 
 ## Dependencies (to build from source)
 The following dependencies are needed to build the visualization tool from source:
-- The Smart grid Synchrophasor Software Development ToolKit (SD3K) ([link]()).
+- The Smart grid Synchrophasor Software Development ToolKit (SD3K) ([link](https://github.com/SmarTS-Lab-Parapluie/S3DK)).
 - Other?
 
-## Installation (using the excecutable)
+## Installation and Use (using the excecutable)
+### Download
+- Go to [*Release*]() and download the installation package.
 ### Configuration:
 - The *Configuration Folder*  consists of PMU/PDC connection settings that need to be set in the *Configuration.xml* file.
-- Open this file using a text editor (e.g. “Notepad”) and edit the values in red below:
+- Open this file using a text editor (e.g. “Notepad”) and edit the values within <Val> </Val> below:
  
-Line 9    <Val>130.237.53.177</Val>     (Should be the IP Address of the PDC/PMU to which you want to connect)
-Line 13   <Val>35028</Val>              (Port number for the PMU/PDC output stream)
-Line 17   <Val>105</Val>                (Device ID Code of the PMU/PDC stream which you have configured)
+ Line 9    <Val>130.237.53.177</Val>     (Should be the IP Address of the PDC/PMU to which you want to connect)
+
+ Line 13   <Val>35028</Val>              (Port number for the PMU/PDC output stream)
+
+ Line 17   <Val>105</Val>                (Device ID Code of the PMU/PDC stream which you have configured)
  
 - Place this xml file in the following path ./Libraries/Documents
  
-### Installation
-- Double click on the  executable named *SynchrophasorRead.exe*
-(i). Once the application is executed, the GUI will populate itself with the information about the PMUs, Phasors etc. available within the synchrophasor stream.
-(ii). On the top of the GUI, there is a checkbox named “Channel Selector”. Click on the desired phasor / analog to visualize its on the plots. For multiple selection of measurments in the “Channel Selector”, Hold “Shift Key” and “Click” on multiple phasors/analogs.
-(iii). Press “Quit” button on the GUI to exit the application. You can safely close the application then.
+### Usage
+- Double click on the  executable named *SynchrophasorRead.exe*, then 
  
-It’s always a good idea to check your incoming PDC stream using PMU Connection Tester on the workstation where you want to execute this application. This will ensure that you don’t have any firewall/networking issues. 
+ (i) Once the application is executed, the GUI will populate itself with the information about the PMUs, Phasors etc. available within the synchrophasor stream.
  
-Remember that this is only a minimalistic display, and it is mean as a starting point for displaying data or developing a new application. Some of the things that would be a good excercise to do when you start working with the source code:
-1. Removing the phase angles wrapping (currently they will fluctuate between +-180 degrees or +-pi radians or whatever your PDC configuration are)
-2. Instead of showing absolute phase angles, you show relative phase angle with respect to a reference PMU (then you will have clear picture of phase angle differences between different PMUs etc.). 
+ (ii) On the top of the GUI, there is a checkbox named “Channel Selector”. Click on the desired phasor / analog to visualize its on the plots. For multiple selection of measurments in the “Channel Selector”, Hold “Shift Key” and “Click” on multiple phasors/analogs.
+ 
+ (iii) Press “Quit” button on the GUI to exit the application. You can safely close the application then.
+
+### Tips
+- It’s always a good idea to check your incoming PDC stream using PMU Connection Tester on the workstation where you want to execute this application. This will ensure that you don’t have any firewall/networking issues. 
+ 
+- Remember that this is only a minimalistic display, and it is mean as a starting point for displaying data or developing a new application. Some of the things that would be a good excercise to do when you start working with the source code:
+
+    (i) Removing the phase angles wrapping (currently they will fluctuate between +-180 degrees or +-pi radians or whatever your PDC configuration are)
+
+    (ii) Instead of showing absolute phase angles, you show relative phase angle with respect to a reference PMU (then you will have clear picture of phase angle differences between different PMUs etc.). 
 
 
 ## References
