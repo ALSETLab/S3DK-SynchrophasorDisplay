@@ -65,3 +65,20 @@ The following dependencies are needed to build the visualization tool from sourc
 
 ## Acknowledgement
 This work was supported in part by the NER-funded STRONgrid project ([link](http://www.nordicenergy.org/project/smart-transmission-grid-operation-and-control/)), Statnett SF (the Norwegian power transmission system operator) ([link](http://www.statnett.no/en/Sustainability/Research-and-Development-/)), and by the STandUP for Energy Collaboration Innitiative ([link](http://www.standupforenergy.se/en/)). 
+
+## More Screenshots!
+Here you can take a look at what kind of plots the application gives you already, and other information that it displays. It was tested using a PDC that receives data from PMUs connected at the low-level outlets of labs in different Nordic universities.
+
+![alt text]( https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/blob/master/02_ScreenShots/GUI.PNG "Graphical User Interface")
+
+![alt text]( https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/blob/master/02_ScreenShots/ChannelSelector.PNG "Channel Selector")
+
+![alt text]( https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/blob/master/02_ScreenShots/Names.PNG "PMU Names")
+
+![alt text]( https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/blob/master/02_ScreenShots/PhasorData_Textual.PNG "Phasor Data Alpha-Numeric View")
+
+![alt text]( https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/blob/master/02_ScreenShots/Mag.PNG "Voltage Magnitude")
+
+![alt text]( https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/blob/master/02_ScreenShots/PhaseAngle.PNG "Voltage Phase")
+
+![alt text]( https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/blob/master/02_ScreenShots/Freq.PNG "Frequency")
