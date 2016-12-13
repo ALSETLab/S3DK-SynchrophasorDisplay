@@ -59,7 +59,7 @@ The following dependencies are needed to build the visualization tool from sourc
  (iii) Press “Quit” button on the GUI to exit the application. You can safely close the application then.
 
 ### Tips
-- It’s always a good idea to check your incoming PDC stream using PMU Connection Tester on the workstation where you want to execute this application. This will ensure that you don’t have any firewall/networking issues. 
+- It’s always a good idea to check your incoming PDC stream using [PMU Connection Tester](https://github.com/GridProtectionAlliance/PMUConnectionTester) on the workstation where you want to execute this application. This will ensure that you don’t have any firewall/networking issues. 
  
 - Remember that this is only a minimalistic display, and it is mean as a starting point for displaying data or developing a new application. Some of the things that would be a good excercise to do when you start working with the source code:
 
