@@ -27,13 +27,16 @@ This repository contains:
 - an excecutable (binaries), [./01_Excecutable](https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/tree/master/01_Executable), and 
 - screenshots of a simple synchrophasor display tool, [./02_Screenshots](https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/tree/master/02_ScreenShots).
 
-## Dependencies (to build from source)
+## Dependencies 
+## To build from source
 The following dependencies are needed to build the visualization tool from source:
 - The Smart grid Synchrophasor Software Development ToolKit (SD3K) ([link](https://github.com/SmarTS-Lab-Parapluie/S3DK)).
+## To run the installer
 - Labview Runtime 2013 ([link](http://www.ni.com/download/labview-run-time-engine-2013/4061/en/))
 
 ## Installation and Use (using the excecutable)
 ### Download
+- Dowload Labview Runtime 2013 ([link](http://www.ni.com/download/labview-run-time-engine-2013/4061/en/)), and install it.
 - Go to [*Release*](https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/releases) and download the installation package **.zip** file. 
 
 ### Configuration
