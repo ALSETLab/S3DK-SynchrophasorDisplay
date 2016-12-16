@@ -30,6 +30,7 @@ This repository contains:
 ## Dependencies (to build from source)
 The following dependencies are needed to build the visualization tool from source:
 - The Smart grid Synchrophasor Software Development ToolKit (SD3K) ([link](https://github.com/SmarTS-Lab-Parapluie/S3DK)).
+- Labview Runtime 2013 ([link](http://www.ni.com/download/labview-run-time-engine-2013/4061/en/))
 
 ## Installation and Use (using the excecutable)
 ### Download
