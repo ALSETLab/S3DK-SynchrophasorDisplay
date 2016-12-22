@@ -36,7 +36,8 @@ The following dependencies are needed to build the visualization tool from sourc
 
 ## Installation and Use (using the excecutable)
 ### Download
-- Dowload Labview Runtime 2013 ([link](http://www.ni.com/download/labview-run-time-engine-2013/4061/en/)), and install it.
+- Dowload Labview Runtime 2013 ([link](http://www.ni.com/download/labview-run-time-engine-2013/4059/en/)), and install it.
+- Dowload The Visual C++ runtime components that are required to run C++ applications built with Visual Studio 2012 ([link](https://www.microsoft.com/en-us/download/details.aspx?id=30679#)), and install it. Please download the version (VSU_4\vcredist_x86.exe)
 - Go to [*Release*](https://github.com/SmarTS-Lab-Parapluie/S3DK-SynchrophasorDisplay/releases) and download the installation package **.zip** file. 
 
 ### Configuration
