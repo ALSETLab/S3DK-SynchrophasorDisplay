@@ -1,6 +1,24 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="13008000">
+	<Property Name="varPersistentID:{10E58ED6-72A3-4BB4-80B3-CC2FE8CAC34A}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/KTH_Freq_Iphone</Property>
+	<Property Name="varPersistentID:{29538755-A0A2-43A6-9625-85095FE9D0F4}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/Test_Freq_XLow</Property>
+	<Property Name="varPersistentID:{2A43FBC9-1C7E-4CE7-9D2F-F6F1282D22D5}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/Chalmers_status</Property>
+	<Property Name="varPersistentID:{317C370A-72E5-47AC-A4A9-7B7A40FEE6FF}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/Lund_status</Property>
+	<Property Name="varPersistentID:{508EF709-23FF-42E0-88EC-B2A129981112}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/LTU_status</Property>
+	<Property Name="varPersistentID:{756C71F8-670C-4B65-BACF-3387D23D1789}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/NTNU_Voltage_Iphone</Property>
+	<Property Name="varPersistentID:{7EF84C87-E050-43CA-92A6-D5F943A20835}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/KTH_status</Property>
+	<Property Name="varPersistentID:{85E5FDCE-CEBC-458D-AA21-0130ADDA54CC}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/Test_Freq_Low</Property>
+	<Property Name="varPersistentID:{8996D469-C8B2-4FD2-9941-203459D36312}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/Select Freq</Property>
+	<Property Name="varPersistentID:{8B9F20A4-675D-4F89-AF30-4813B21C810F}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/KTHVolt_d</Property>
+	<Property Name="varPersistentID:{A7E7ABAF-0D55-48A1-A57D-667E9BB01FEC}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/Test_Freq_XHigh</Property>
+	<Property Name="varPersistentID:{ADC9E820-F40E-4E9A-9EDB-15FDA4901EFF}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/Tampere_status</Property>
+	<Property Name="varPersistentID:{C77F6939-0C82-4E05-AEAA-30FFD0E4E1CA}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/NTNU_Freq_Iphone</Property>
+	<Property Name="varPersistentID:{D787FC6B-757D-47E1-80CD-1440EBDE47AC}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/Test_Freq_High</Property>
+	<Property Name="varPersistentID:{E2864625-6EC5-40FC-8B86-704262C1093E}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/NTNU_status</Property>
+	<Property Name="varPersistentID:{EE9EFE37-FA9C-40C2-BDA4-813767EBB38B}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/KTHFreq_d</Property>
+	<Property Name="varPersistentID:{FBF983F4-5026-4111-B616-06C57E84BBBC}" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib/KTH_Voltage_IPhone</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="DisableAutoDeployVariables" Type="Bool">true</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -17,6 +35,9 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Current VI&apos;s Path (VI or exe).vi" Type="VI" URL="/&lt;userlib&gt;/VI Path/Current VI&apos;s Path (VI or exe).vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
 				<Item Name="AddNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/AddNamedSemaphorePrefix.vi"/>
@@ -66,6 +87,7 @@
 				<Item Name="Map Setup.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Map Setup.vi"/>
 				<Item Name="Map Value to Pixel.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Map Value to Pixel.vi"/>
 				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
+				<Item Name="NI_DSC.lvlib" Type="Library" URL="/&lt;vilib&gt;/lvdsc/NI_DSC.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Num To Text.vi" Type="VI" URL="/&lt;vilib&gt;/picture/scale.llb/Num To Text.vi"/>
@@ -75,6 +97,10 @@
 				<Item Name="PG angle lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/PG angle lines.vi"/>
 				<Item Name="PG circles.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/PG circles.vi"/>
 				<Item Name="PG scale.vi" Type="VI" URL="/&lt;vilib&gt;/picture/polarplt.llb/PG scale.vi"/>
+				<Item Name="PRC_Deploy.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_Deploy.vi"/>
+				<Item Name="PRC_MakeFullPathWithCurrentVIsCallerPath.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_MakeFullPathWithCurrentVIsCallerPath.vi"/>
+				<Item Name="PRC_MutipleDeploy.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_MutipleDeploy.vi"/>
+				<Item Name="PRC_Undeploy.vi" Type="VI" URL="/&lt;vilib&gt;/lvdsc/process/internal/PRC_Undeploy.vi"/>
 				<Item Name="Release Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore Reference.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
@@ -136,6 +162,50 @@
 				<Property Name="TgtF_productName" Type="Str">My First PMU App</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{35A938CB-4179-44BD-AAC2-E17625BE6BA9}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">MiniReader.exe</Property>
+			</Item>
+			<Item Name="Strongrid App" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{26F0B7B4-B941-4520-B8DE-9CA02AA3AE2C}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{13F1B675-8067-42FD-A1B8-706EFC4FF8FC}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{5D140306-E177-4CEB-8ACB-707A343549BE}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Strongrid App</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/StrongridApp</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F55A14D9-D01D-4367-8C4E-5DF969EDBD3A}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">StrongridApp.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/StrongridApp/StrongridApp.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/StrongridApp/data</Property>
+				<Property Name="Destination[2].destName" Type="Str">Lib</Property>
+				<Property Name="Destination[2].path" Type="Path">../builds/StrongridApp/Dependencies</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[0].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B378898F-3E25-4C1A-9C10-E275DF5F1FBD}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Strongrid App/Strongrid_Core_app.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Strongrid App/Dependencies/Ipad Variables.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Kungliga Tekniska Högskolan</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Strongrid App</Property>
+				<Property Name="TgtF_internalName" Type="Str">Strongrid App</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Kungliga Tekniska Högskolan</Property>
+				<Property Name="TgtF_productName" Type="Str">Strongrid App</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{FBE5613D-424D-4664-A05D-4C5A00991F16}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">StrongridApp.exe</Property>
 			</Item>
 		</Item>
 	</Item>
