@@ -48,22 +48,20 @@ The LabVIEW project contains 'build specifications' for each of the tools availa
 
 - Open this file using a text editor (e.g. “Notepad”) and edit the values within `highlighted` below:
 
- Line 9    `130.237.53.177`     (Should be the IP Address of the PDC/PMU to which you want to connect)
-
- Line 13   `35028`              (Port number for the PMU/PDC output stream)
-
- Line 17   `105`                (Device ID Code of the PMU/PDC stream which you have configured)
+    - Line 9    `130.237.53.177`     (Should be the IP Address of the PDC/PMU to which you want to connect)
+    - Line 13   `35028`              (Port number for the PMU/PDC output stream)
+    - Line 17   `105`                (Device ID Code of the PMU/PDC stream which you have configured)
 
 - Place this xml file in the following path ./Libraries/Documents
 
 ### Usage
 - Double click on the  executable named *SynchrophasorRead.exe*, then
 
- (i) Once the application is executed, the GUI will populate itself with the information about the PMUs, Phasors etc. available within the synchrophasor stream.
+  1.  Once the application is executed, the GUI will populate itself with the information about the PMUs, Phasors etc. available within the synchrophasor stream.
 
- (ii) On the top of the GUI, there is a checkbox named “Channel Selector”. Click on the desired phasor / analog to visualize its on the plots. For multiple selection of measurments in the “Channel Selector”, Hold “Shift Key” and “Click” on multiple phasors/analogs.
+  2.  On the top of the GUI, there is a checkbox named “Channel Selector”. Click on the desired phasor / analog to visualize its on the plots. For multiple selection of measurments in the “Channel Selector”, Hold “Shift Key” and “Click” on multiple phasors/analogs.
 
- (iii) Press “Quit” button on the GUI to exit the application. You can safely close the application then.
+  3.  Press “Quit” button on the GUI to exit the application. You can safely close the application then.
 
 ### Tips
 - It’s always a good idea to check your incoming PDC stream using [PMU Connection Tester](https://github.com/GridProtectionAlliance/PMUConnectionTester) on the workstation where you want to execute this application. This will ensure that you don’t have any firewall/networking issues.
